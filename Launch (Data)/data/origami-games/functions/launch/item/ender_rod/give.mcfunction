@@ -1,0 +1,1 @@
+give @s blaze_rod{display:{Name:'{"translate":"item.launch.ender_rod","italic":false,"color":"aqua"}',Lore:['{"translate":"item.launch.ender_rod.lore"}']},origami-games:{launch:{item:"ender_rod"}},CustomModelData:2}

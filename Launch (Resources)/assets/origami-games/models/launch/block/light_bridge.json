@@ -1,0 +1,9 @@
+{
+    "parent": "origami-games:launch/block/overlay",
+    "textures": {
+        "side": "origami-games:launch/block/light_bridge",
+        "top": "origami-games:launch/block/light_bridge",
+        "front": "origami-games:launch/block/light_bridge",
+        "bottom": "origami-games:launch/block/light_bridge"
+    }
+}

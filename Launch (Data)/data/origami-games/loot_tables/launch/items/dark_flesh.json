@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"translate\":\"item.launch.dark_flesh\",\"italic\":false,\"color\":\"light_purple\"}'},origami-games:{launch:{item:\"dark_flesh\"}},CustomModelData:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

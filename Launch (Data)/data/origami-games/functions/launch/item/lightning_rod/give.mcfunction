@@ -1,0 +1,1 @@
+give @s blaze_rod{Enchantments:[{id:"unbreaking",lvl:0}],HideFlags:1b,display:{Name:'{"translate":"item.launch.lightning_rod","italic":false}'},origami-games:{launch:{item:"lightning_rod"}},CustomModelData:1}

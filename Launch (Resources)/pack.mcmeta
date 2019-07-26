@@ -1,0 +1,24 @@
+{
+    "pack": {
+        "pack_format": 4,
+        "description": [
+            {
+                "translate": "%1$s",
+                "with": [
+                    {
+                        "text": "Enable to play Launch",
+                        "color":"red"
+                    },
+                    {
+                        "translate": "pack.launch.name",
+                        "color": "aqua"
+                    }
+                ]
+            },"\n",
+            {
+                "text": "M1.14+",
+                "color": "dark_gray"
+            }
+        ]
+    }
+}

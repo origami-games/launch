@@ -1,0 +1,43 @@
+{
+    "%1$s": "%2$s",
+
+    "pack.launch.name": "Launch",
+    "pack.launch.load": "Loaded",
+
+    "text.launch.update": "Successfully updated",
+    "text.launch.downdate": "You are downdating! Disabling pack...",
+    "text.launch.downdate.done": "Pack disabled",
+    "text.launch.update.build_number": "Build Number",
+    "text.launch.update.server_version_number": "Server version",
+    "text.launch.server_version.too_low": "You are not playing in the correct Minecraft version! Disabling pack...",
+    "text.launch.server_version.too_low.done": "Pack disabled",
+
+    "text.launch.up": "Up",
+    "text.launch.down": "Down",
+    "text.launch.north": "North",
+    "text.launch.east": "East",
+    "text.launch.south": "South",
+    "text.launch.west": "West",
+
+    "block.launch.light_bridge": "Light Bridge",
+    "block.launch.synthesiser": "Synthesiser",
+
+    "item.launch.redstonic_locator": "Redstonic Locator",
+    "item.launch.redstonic_locator.ore_detection.too_high": "Altitude too high!",
+    "item.launch.redstonic_locator.ore_detection.invalid_dimension": "Location invalid!",
+
+    "item.launch.electrified_energy_bars": "Electrified Energy Bars",
+    "item.launch.electrified_energy_bars.lore": "Hot and sizzly",
+
+    "item.launch.fragment": "Fragment",
+    "item.launch.dark_flesh": "Dark Flesh",
+
+    "item.launch.lightning_rod": "Lightning Rod",
+    "item.launch.ender_rod": "Ender Rod",
+    "item.launch.ender_rod.lore": "It keeps teleporting?!",
+
+    "item.launch.explosive_arrow": "Explosive Arrow",
+    "item.launch.lightning_arrow": "Lightning Arrow",
+    "item.launch.ender_arrow": "Ender Arrow",
+    "item.launch.torch_arrow": "Torch Arrow"
+}

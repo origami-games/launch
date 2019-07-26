@@ -1,0 +1,32 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/arrow"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "origami-games:launch/item/explosive_arrow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "origami-games:launch/item/lightning_arrow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "origami-games:launch/item/ender_arrow"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "origami-games:launch/item/torch_arrow"
+        }
+    ]
+}

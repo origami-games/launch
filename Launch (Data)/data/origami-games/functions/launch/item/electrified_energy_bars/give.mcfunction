@@ -1,0 +1,1 @@
+give @s iron_bars{Enchantments:[{id:"unbreaking",lvl:0}],HideFlags:1b,display:{Name:'{"translate":"item.launch.electrified_energy_bars","italic":false}',Lore:['{"translate":"item.launch.electrified_energy_bars.lore"}']},origami-games:{launch:{item:"electrified_energy_bars"}}}

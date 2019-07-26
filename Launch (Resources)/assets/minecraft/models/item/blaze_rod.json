@@ -1,0 +1,20 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/blaze_rod"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "origami-games:launch/item/lightning_rod"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "origami-games:launch/item/ender_rod"
+        }
+    ]
+}
