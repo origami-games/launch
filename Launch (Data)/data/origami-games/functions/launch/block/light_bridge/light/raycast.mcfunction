@@ -11,4 +11,4 @@ execute if entity @s[scores={lch_lb_rotation=3}] run tp @e[type=area_effect_clou
 execute if entity @s[scores={lch_lb_rotation=4}] run tp @e[type=area_effect_cloud,tag=lch_light_bridge_raycast,sort=nearest,limit=1] ~ ~ ~1 0 0
 execute if entity @s[scores={lch_lb_rotation=5}] run tp @e[type=area_effect_cloud,tag=lch_light_bridge_raycast,sort=nearest,limit=1] ~-1 ~ ~ 90 0
 
-execute as @e[type=area_effect_cloud,tag=lch_light_bridge_raycast,sort=nearest,limit=1] run function origami-games:launch/block/light_bridge/light/loop_end_1
+execute as @e[type=area_effect_cloud,tag=lch_light_bridge_raycast,sort=nearest,limit=1] run function origami-games:launch/block/light_bridge/light/loop

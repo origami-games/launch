@@ -1,0 +1,13 @@
+particle composter ~.5 ~ ~ 0 0 0 1 1 normal @a
+particle composter ~-.5 ~ ~ 0 0 0 1 1 normal @a
+particle composter ~.5 ~1 ~ 0 0 0 1 1 normal @a
+particle composter ~-.5 ~1 ~ 0 0 0 1 1 normal @a
+particle composter ~ ~ ~.5 0 0 0 1 1 normal @a
+particle composter ~ ~ ~-.5 0 0 0 1 1 normal @a
+particle composter ~ ~1 ~.5 0 0 0 1 1 normal @a
+particle composter ~ ~1 ~-.5 0 0 0 1 1 normal @a
+particle composter ~.5 ~.5 ~.5 0 0 0 1 1 normal @a
+particle composter ~-.5 ~.5 ~-.5 0 0 0 1 1 normal @a
+particle composter ~.5 ~.5 ~-.5 0 0 0 1 1 normal @a
+particle composter ~-.5 ~.5 ~.5 0 0 0 1 1 normal @a
+particle composter ~ ~.5 ~ 0 0 0 1 1 normal @a

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/chitin"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/fire_ant_blood"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/fire_ant_husk"
+                }
+            ]
+        }
+    ]
+}

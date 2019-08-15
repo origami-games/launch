@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_pickaxe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"magnetite_pickaxe\",magnetite:1b}},display:{Name:'{\"translate\":\"item.launch.magnetite_pickaxe\",\"italic\":false}'},CustomModelData:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

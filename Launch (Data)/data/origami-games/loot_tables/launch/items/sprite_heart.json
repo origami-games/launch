@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"sprite_heart\"}},display:{Name:'{\"translate\":\"item.launch.sprite_heart\",\"italic\":false}',Lore:['{\"translate\":\"item.launch.sprite_heart.lore\"}']},CustomModelData:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

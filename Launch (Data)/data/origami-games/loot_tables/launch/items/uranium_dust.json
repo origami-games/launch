@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"uranium_dust\"}},display:{Name:'{\"translate\":\"item.launch.uranium_dust\",\"italic\":false}'},CustomModelData:20}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

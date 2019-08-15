@@ -28,4 +28,4 @@ execute if entity @s[scores={lch_lb_rotation=3}] run title @p[scores={lch_lb_ins
 execute if entity @s[scores={lch_lb_rotation=4}] run title @p[scores={lch_lb_insp_drop=1..}] actionbar [{"translate":"block.launch.light_bridge","color":"aqua"},": ",{"translate":"text.launch.south","color":"dark_aqua"}]
 execute if entity @s[scores={lch_lb_rotation=5}] run title @p[scores={lch_lb_insp_drop=1..}] actionbar [{"translate":"block.launch.light_bridge","color":"aqua"},": ",{"translate":"text.launch.west","color":"dark_aqua"}]
 
-execute at @s run particle nautilus ~ ~1.25 ~
+tag @p[scores={lch_lb_insp_drop=1..}] add lch_light_bridge_toggled

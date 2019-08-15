@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clay_ball"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/slime_fertiliser"
+                }
+            ]
+        }
+    ]
+}

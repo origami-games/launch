@@ -1,5 +1,5 @@
 {
-    "parent": "item/handheld",
+    "parent": "item/blaze_rod",
     "textures": {
         "layer0": "origami-games:launch/item/ender_rod"
     }

@@ -1,1 +1,0 @@
-give @s clock{CustomModelData:1,origami-games:{launch:{item:"end_stone_fragment"}},display:{Name:'[{"translate":"block.minecraft.end_stone","italic":false}," ",{"translate":"item.launch.fragment"}]'}}

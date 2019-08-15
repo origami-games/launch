@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"dragon_bone\"}},display:{Name:'{\"translate\":\"item.launch.dragon_bone\",\"italic\":false}'},CustomModelData:13}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -8,10 +8,6 @@
                     "name": "minecraft:arrow",
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
                             "function": "set_nbt",
                             "tag": "{origami-games:{launch:{item:\"custom_arrow\",arrow:\"explosive\"}},display:{Name:'{\"translate\":\"item.launch.explosive_arrow\",\"italic\":false}'},CustomModelData:1}"
                         }

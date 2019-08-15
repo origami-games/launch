@@ -1,0 +1,6 @@
+{
+    "item.armor.equip_generic": {
+        "replace": true,
+        "sounds": []
+    }
+}

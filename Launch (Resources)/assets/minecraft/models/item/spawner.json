@@ -1,0 +1,17 @@
+{
+    "parent": "block/spawner",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "origami-games:launch/block/titanium_plating"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "origami-games:launch/block/magnetite_ore"
+        }
+    ]
+}

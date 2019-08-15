@@ -1,5 +1,5 @@
 {
-    "parent": "origami-games:launch/block/overlay",
+    "parent": "origami-games:launch/block/cube",
     "textures": {
         "side": "origami-games:launch/block/synthesiser_side",
         "top": "origami-games:launch/block/synthesiser_top",

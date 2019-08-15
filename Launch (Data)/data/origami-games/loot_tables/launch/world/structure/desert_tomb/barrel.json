@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 5,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:entities/husk"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:entities/skeleton"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/entities/sand_crawler"
+                }
+            ]
+        }
+    ]
+}

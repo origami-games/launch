@@ -1,0 +1,11 @@
+{
+    "parent": "block/gray_concrete",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "origami-games:launch/gui/advancements/icon/progress/root"
+        }
+    ]
+}

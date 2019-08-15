@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"wolf_fang\"}},display:{Name:'{\"translate\":\"item.launch.wolf_fang\",\"italic\":false}'},AttributeModifiers:[{AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\",Amount:1.5,Operation:0,UUIDMost:19384,UUIDLeast:83947,Slot:\"mainhand\"}],CustomModelData:9,HideFlags:2}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

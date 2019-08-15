@@ -74,7 +74,127 @@
             "predicate": {
                 "custom_model_data": 1
             },
+            "model": "origami-games:launch/item/redstonic_locator"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
             "model": "origami-games:launch/item/end_stone_fragment"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "origami-games:launch/item/looking_glass"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "origami-games:launch/item/electrified_energy_bars"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "origami-games:launch/item/fire_ant_blood"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "origami-games:launch/item/chitin"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "origami-games:launch/item/treemanoid_bark"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "origami-games:launch/item/slime_fertiliser"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "origami-games:launch/item/wolf_fang"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 10
+            },
+            "model": "origami-games:launch/item/wolf_pelt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 11
+            },
+            "model": "origami-games:launch/item/copper_artefact"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 12
+            },
+            "model": "origami-games:launch/item/copper_shards"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 13
+            },
+            "model": "origami-games:launch/item/dragon_bone"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 14
+            },
+            "model": "origami-games:launch/item/industrial_grade_diamond"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 15
+            },
+            "model": "origami-games:launch/item/silver_shards"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 16
+            },
+            "model": "origami-games:launch/item/silver_wire"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 17
+            },
+            "model": "origami-games:launch/item/titanium_shards"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 18
+            },
+            "model": "origami-games:launch/item/tungsten_artefact"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 19
+            },
+            "model": "origami-games:launch/item/tungsten_shards"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 20
+            },
+            "model": "origami-games:launch/item/uranium_dust"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 21
+            },
+            "model": "origami-games:launch/item/magnetite_lump"
         }
     ]
 }

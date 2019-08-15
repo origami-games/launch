@@ -4,9 +4,9 @@
 #store build number
 scoreboard players operation build_number.prev lch_general = build_number lch_general
 #update current build number ***MODIFY BUILD COUNT HERE***
-scoreboard players set build_number lch_general 1
+scoreboard players set build_number lch_general 2
 #if updating, send update message
-execute if score build_number.prev lch_general < build_number lch_general run tellraw @a {"translate":"text.launch.update","clickEvent":{"action":"open_url","value":"https://origami-games.github.io/changelogs/artefact"},"color":"aqua"}
+execute if score build_number.prev lch_general < build_number lch_general run tellraw @a {"translate":"text.launch.update","clickEvent":{"action":"open_url","value":"https://origami-games.github.io/changelogs/launch"},"color":"aqua"}
 #if downdating, send warning message
 execute if score build_number.prev lch_general > build_number lch_general run function origami-games:launch/build/downdating
 #remove fake players

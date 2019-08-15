@@ -1,14 +1,13 @@
 #checks raycast block
 #@s - light bridge raycast aec
-#called by launch/block/light_bridge/light/loop_end_1
+#called by self
 
-#audiovisuals
-particle dust 0.171 0.687 0.687 1 ~ ~.5 ~ .25 .25 .25 0 2 normal @a
+#functionality
+execute if block ~ ~ ~ barrier run function origami-games:launch/block/light_bridge/light/particle
 execute store success score @s lch_lb_ray_scss run setblock ~ ~ ~ barrier keep
 execute if block ~ ~ ~ barrier run scoreboard players reset @s lch_lb_ray_scss
 scoreboard players operation @s[scores={lch_lb_ray_scss=0}] lch_lb_ray = $limit lch_lb_ray
 
-#functionality
 tp @s ^ ^ ^1
 scoreboard players add @s[scores={lch_lb_ray_scss=0}] lch_lb_ray 1
 

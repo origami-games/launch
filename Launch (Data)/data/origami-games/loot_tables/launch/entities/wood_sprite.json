@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone_meal"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glowstone_dust"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/sprite_heart"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/wood_sprite_core"
+                }
+            ]
+        }
+    ]
+}

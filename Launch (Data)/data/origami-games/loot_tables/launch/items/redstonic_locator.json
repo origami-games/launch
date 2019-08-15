@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"redstonic_locator\"}},display:{Name:'{\"translate\":\"item.launch.redstonic_locator\",\"italic\":false,\"color\":\"aqua\"}'},CustomModelData:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,1 +1,0 @@
-give @s compass{origami-games:{launch:{item:"redstonic_locator"}},display:{Name:'{"translate":"item.launch.redstonic_locator","italic":false,"color":"aqua"}',Lore:['{"translate":"item.launch.redstonic_locator.lore"}']},CustomModelData:1}

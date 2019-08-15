@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"magnetite_sword\",magnetite:1b}},display:{Name:'{\"translate\":\"item.launch.magnetite_sword\",\"italic\":false}'},CustomModelData:1,AttributeModifiers:[{UUIDMost:28237,UUIDLeast:19284,Operation:0,Amount:9.5d,Slot:\"mainhand\",Name:\"generic.attackDamage\",AttributeName:\"generic.attackDamage\"},{UUIDMost:28238,UUIDLeast:19285,Operation:0,Amount:-1.6d,Slot:\"mainhand\",Name:\"generic.attackSpeed\",AttributeName:\"generic.attackSpeed\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"copper_shards\"}},display:{Name:'{\"translate\":\"item.launch.copper_shards\",\"italic\":false}'},CustomModelData:12}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
