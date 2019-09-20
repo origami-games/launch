@@ -44,7 +44,6 @@ scoreboard objectives add lch_lb_ray_scss dummy
 scoreboard objectives add lch_lb_ray dummy
 scoreboard players set $limit lch_lb_ray 31
 
-scoreboard objectives add lch_gp_status dummy
 scoreboard objectives add lch_gp_cooldown dummy
 scoreboard players set $start lch_gp_cooldown 10
 

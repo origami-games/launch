@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ore",
+                    "weight": 20
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/blocks/function/ore_spirit",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{spirit_type:\"iron\"}}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ]
+        }
+    ]
+}

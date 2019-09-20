@@ -1,0 +1,9 @@
+{
+    "parent": "origami-games:launch/block/cube",
+    "textures": {
+        "side": "origami-games:launch/block/disenchanter_side",
+        "top": "origami-games:launch/block/disenchanter_top",
+        "front": "origami-games:launch/block/disenchanter_side",
+        "bottom": "origami-games:launch/block/disenchanter_bottom"
+    }
+}

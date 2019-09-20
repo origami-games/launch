@@ -195,6 +195,12 @@
                 "custom_model_data": 21
             },
             "model": "origami-games:launch/item/magnetite_lump"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 22
+            },
+            "model": "origami-games:launch/item/block_breaker"
         }
     ]
 }

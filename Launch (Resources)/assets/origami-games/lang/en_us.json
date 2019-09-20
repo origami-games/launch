@@ -24,15 +24,17 @@
     "advancement.launch.progress.root": "Launch",
     "advancement.launch.progress.root.description": "",
     "advancement.launch.progress.synthesiser": "Primeval Synthesis",
-    "advancement.launch.progress.synthesiser.description": "Craft a Synthesiser with a redstonic locator, crafting table, iron block and piston",
+    "advancement.launch.progress.synthesiser.description": "Craft a Synthesiser",
     "advancement.launch.progress.redstonic_locator": "Beep Boop. Boop Beep.",
-    "advancement.launch.progress.redstonic_locator.description": "Craft a Redstonic Locator with Quartz, Glass, Green Concrete and Redstone",
+    "advancement.launch.progress.redstonic_locator.description": "Craft a Redstonic Locator",
 
     "block.launch.light_bridge": "Light Bridge",
     "block.launch.synthesiser": "Synthesiser",
     "block.launch.titanium_plating": "Titanium Plating",
     "block.launch.magnetite_ore": "Magnetite Ore",
     "block.launch.gravity_pad": "Gravity Pad",
+    "block.launch.block_breaker": "Block Breaker",
+    "block.launch.disenchanter": "Disenchanter",
 
     "item.launch.redstonic_locator": "Redstonic Locator",
     "item.launch.redstonic_locator.ore_detection.too_high": "Altitude too high!",
@@ -50,7 +52,6 @@
     "item.launch.torch_arrow": "Torch Arrow",
     "item.launch.chitin": "Chitin",
     "item.launch.chitin.lore": "The tough outer shell of insects and arachnids",
-    "item.launch.dead_bee": "Dead Bee",
     "item.launch.fire_ant_blood": "Fire Ant Blood",
     "item.launch.fire_ant_blood.lore": "Its blood and bite produces a fiery stinging sensation",
     "item.launch.fire_ant_husk": "Fire Ant Husk",
@@ -86,11 +87,13 @@
     "item.launch.verdant_hammer": "Verdant Hammer",
     "item.launch.verdant_shovel": "Verdant Shovel",
     "item.launch.verdant_bow": "Verdant Bow",
+    "item.launch.spirit_orb": "Spirit Orb",
 
-    "entity.launch.bee": "Bee",
     "entity.launch.fire_ant": "Fire Ant",
     "entity.launch.slime_queen": "Slime Queen",
     "entity.launch.treemanoid": "Treemanoid",
     "entity.launch.wolf_rider": "Wolf Rider",
-    "entity.launch.wood_sprite": "Wood Sprite"
+    "entity.launch.wood_sprite": "Wood Sprite",
+    "entity.launch.ore_spirit": "Ore Spirit",
+    "entity.launch.sand_crawler": "Sand Crawler"
 }

@@ -2,7 +2,6 @@
 #called by launch/world/overworld/chunk/generate
 
 #spawn structure markers
-execute if block ~ 1 ~ #origami-games:launch/world/structure/trigger_hive run summon area_effect_cloud ~8.5 0 ~8.5 {Tags:["lch_entity","lch_structure","lch_structure_hive"],CustomName:'"lch_structure"'}
 execute if block ~ 1 ~ #origami-games:launch/world/structure/trigger_meteor run summon area_effect_cloud ~8.5 0 ~8.5 {Tags:["lch_entity","lch_structure","lch_structure_meteor"],CustomName:'"lch_structure"'}
 execute if block ~ 1 ~ #origami-games:launch/world/structure/trigger_wolf_hideout run summon area_effect_cloud ~8.5 0 ~8.5 {Tags:["lch_entity","lch_structure","lch_structure_wolf_hideout"],CustomName:'"lch_structure"'}
 execute if block ~ 1 ~ #origami-games:launch/world/structure/trigger_desert_tomb run summon area_effect_cloud ~8.5 0 ~8.5 {Tags:["lch_entity","lch_structure","lch_structure_desert_tomb"],CustomName:'"lch_structure"'}

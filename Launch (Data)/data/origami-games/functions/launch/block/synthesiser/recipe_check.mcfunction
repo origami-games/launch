@@ -1,6 +1,6 @@
 #Synthesiser recipe check
 #@s - synthesiser with valid recipe
-#called by launch/block/synthesiser/crafting/recipe_validity_check
+#called by launch/crafting/recipe_validity_check
 
 # =======
 # VANILLA
@@ -82,3 +82,9 @@ execute if score @s lch_slot_count matches 3 if score @s lch_slot_size matches 1
 execute if score @s lch_slot_count matches 5 if score @s lch_slot_size matches 1 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:1b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:2b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:4b,id:"minecraft:stick"},{Slot:7b,id:"minecraft:stick"}]} run function origami-games:launch/item/magnetite/pickaxe/craft
 execute if score @s lch_slot_count matches 3 if score @s lch_slot_size matches 1 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:3b,id:"minecraft:stick"},{Slot:6b,id:"minecraft:stick"}]} run function origami-games:launch/item/magnetite/shovel/craft
 execute if score @s lch_slot_count matches 5 if score @s lch_slot_size matches 1 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:1b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:3b,id:"minecraft:stick"},{Slot:4b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:6b,id:"minecraft:stick"}]} run function origami-games:launch/item/magnetite/hammer/craft
+
+#block breaker
+execute if score @s lch_slot_count matches 9 if score @s lch_slot_size matches ..16 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:diamond"},{Slot:1b,id:"minecraft:diamond"},{Slot:2b,id:"minecraft:diamond"},{Slot:3b,id:"minecraft:iron_ingot"},{Slot:4b,id:"minecraft:stick"},{Slot:5b,id:"minecraft:iron_ingot"},{Slot:6b,id:"minecraft:piston"},{Slot:7b,id:"minecraft:stick"},{Slot:8b,id:"minecraft:piston"}]} run function origami-games:launch/block/block_breaker/craft
+
+#disenchanter
+execute if score @s lch_slot_count matches 9 if score @s lch_slot_size matches ..16 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:smooth_stone"},{Slot:1b,id:"minecraft:writable_book"},{Slot:2b,id:"minecraft:smooth_stone"},{Slot:3b,id:"minecraft:smooth_stone"},{Slot:4b,id:"minecraft:enchanting_table"},{Slot:5b,id:"minecraft:smooth_stone"},{Slot:6b,id:"minecraft:smooth_stone"},{Slot:7b,id:"minecraft:obsidian"},{Slot:8b,id:"minecraft:smooth_stone"}]} run function origami-games:launch/block/disenchanter/craft
