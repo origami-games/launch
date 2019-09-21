@@ -1,7 +1,7 @@
 Changelog
 =========
 
-## [v0.0.3 (build 3)](https://github.com/origami-games/launch/archive/v0.0.3.zip)
+## [v0.0.3](https://github.com/origami-games/launch/tree/v0.0.3)
 - Fixed custom ores dropping experience when silk-touched
 - Fixed custom ores not dropping anything when not broken by a player
 - Fixed some custom block crafts referring to its block loot table, not its item loot table
@@ -33,7 +33,7 @@ Changelog
 - Made `recipe_validity_check` global
 - Removed Bees (added in 19w34a)
 
-## [v0.0.2 (build 2)](https://github.com/origami-games/launch/archive/v0.0.2.zip)
+## [v0.0.2](https://github.com/origami-games/launch/tree/v0.0.2)
 - Fixed [`#1` Custom blocks spawn higher than they should if placed on a non-full block](https://github.com/origami-games/launch/issues/1)
 - Fixed [`#2` Custom arrows don't work if they're the last of their stack](https://github.com/origami-games/launch/issues/2)
 - Fixed Torch Arrows on east/west faces spawning Torches on the inverse face
@@ -99,7 +99,7 @@ Changelog
 
 -----
 
-## [v0.0.1 (build 1)](https://github.com/origami-games/launch/archive/v0.0.1.zip)
+## [v0.0.1](https://github.com/origami-games/launch/tree/v0.0.1)
 - Added End Stone Fragments
     - Drops from End Stone
     - No functionality yet
