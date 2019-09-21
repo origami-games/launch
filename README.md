@@ -64,6 +64,14 @@ A space-themed survival data pack for Minecraft.
     - *Synthesiser*
         - Floor crafted with 1 *Redstonic Locator*, 1 *Piston*, 1 *Iron Block* and 1 *Crafting Table*
         - Essentially, Launch's custom crafter
+    - *Disenchanter*
+        - Can be placed like normal blocks
+        - Removes enchantments from items when the enchanted item is placed in the first slot of the *Disenchanter* and a normal book is placed in the last slot
+            - Returns an *Enchanted Book*, removes the enchantment from the item and gives a bit of XP
+        - Crafted in Synthesiser with *Smooth Stone*, *Obsidian*, an *Enchanting Table* and a *Book and Quill*
+            - `SBS`
+            - `SES`
+            - `SOS`
     - *Light Bridge*
         - Crafted in *Synthesiser* with *Iron Blocks*, *Purpur Blocks*, *Sea Lanterns* and *Light Blue Stained Glass* in this formation:
             - `ILI`
@@ -77,6 +85,13 @@ A space-themed survival data pack for Minecraft.
             - `MMM`
             - `SSS`
         - Enabled/disables gravity on any entity that is above the *Gravity Pad* when powered by redstone
+    - *Block Breaker*
+        - Created by dropping a *Block Breaker* item on to a piston
+        - When powered by redstone, breaks the block the face of the piston head touches
+        - Crafted in *Synthesiser* with *Diamonds* and *Sticks* like a pickaxe, *Iron Ingots* and *Pistons*
+            - `DDD`
+            - `ISI`
+            - `PSP`
 - **Gameplay Changes**
     - Made *Shulkers* drop 2 *Shulker Shells* always
     - Made *Silverfish* drop *Iron Nuggets*, and have a chance to drop *Iron Ingots* with *Looting*
