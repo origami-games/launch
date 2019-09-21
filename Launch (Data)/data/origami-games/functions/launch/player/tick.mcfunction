@@ -12,6 +12,7 @@ execute store result score @s lch_pl_y run data get entity @s Pos[1]
 loot replace entity @s[nbt={SelectedItem:{id:"minecraft:dropper",tag:{BlockEntityTag:{CustomName:'{"translate":"block.launch.synthesiser"}'}}}}] weapon loot origami-games:launch/items/synthesiser
 loot replace entity @s[nbt={SelectedItem:{id:"minecraft:dropper",tag:{BlockEntityTag:{CustomName:'{"translate":"block.launch.light_bridge"}'}}}}] weapon loot origami-games:launch/items/light_bridge
 loot replace entity @s[nbt={SelectedItem:{id:"minecraft:dropper",tag:{BlockEntityTag:{CustomName:'{"translate":"block.launch.gravity_pad"}'}}}}] weapon loot origami-games:launch/items/gravity_pad
+loot replace entity @s[nbt={SelectedItem:{id:"minecraft:dropper",tag:{BlockEntityTag:{CustomName:'{"translate":"block.launch.disenchanter"}'}}}}] weapon loot origami-games:launch/items/disenchanter
 
 #light bridge rotation
 execute if entity @s[scores={lch_lb_insp_drop=1..}] anchored eyes positioned ^ ^ ^ anchored feet run function origami-games:launch/block/light_bridge/rotation/raycast

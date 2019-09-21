@@ -33,6 +33,12 @@
                 "custom_model_data": 5
             },
             "model": "origami-games:launch/item/gravity_pad"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 6
+            },
+            "model": "origami-games:launch/item/disenchanter"
         }
     ]
 }

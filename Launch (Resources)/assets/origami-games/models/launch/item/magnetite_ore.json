@@ -1,5 +1,5 @@
 {
-    "parent": "origami-games:launch/block/cube_all",
+    "parent": "block/cube_all",
     "textures": {
         "all": "origami-games:launch/block/magnetite_ore"
     }

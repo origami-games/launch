@@ -24,7 +24,8 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:nether_quartz_ore"
+                            "name": "minecraft:nether_quartz_ore",
+                            "weight": 10
                         },
                         {
                             "type": "minecraft:item",
@@ -49,7 +50,19 @@
                                     "function": "minecraft:explosion_decay"
                                 }
                             ],
-                            "name": "minecraft:quartz"
+                            "name": "minecraft:quartz",
+                            "weight": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/blocks/function/ore_spirit",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{spirit_type:\"nether_quartz\"}}}"
                         }
                     ]
                 }

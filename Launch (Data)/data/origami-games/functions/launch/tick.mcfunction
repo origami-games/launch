@@ -81,6 +81,8 @@ execute as @e[type=item,nbt={Item:{tag:{origami-games:{launch:{spawner:{}}}}}}] 
 ## gravity pads
 scoreboard players remove @e[type=!#origami-games:launch/block/gravity_pad/no_toggle,scores={lch_gp_cooldown=1..}] lch_gp_cooldown 1
 scoreboard players reset @e[type=!#origami-games:launch/block/gravity_pad/no_toggle,scores={lch_gp_cooldown=0}] lch_gp_cooldown
+## block breaker
+execute as @e[type=area_effect_cloud,tag=lch_block_breaker] at @s run function origami-games:launch/block/block_breaker/processes
 
 #custom arrows
 execute as @e[type=arrow,tag=lch_explosive_arrow,nbt={inGround:1b}] at @s run function origami-games:launch/item/arrow/explosive/land
@@ -94,6 +96,8 @@ execute as @e[type=!#origami-games:launch/sprite,type=!player,tag=!lch_no_check,
 execute as @e[tag=lch_sound] at @s run function origami-games:launch/entity/sound/checks
 ## sand crawler
 effect clear @e[tag=lch_sand_crawler] levitation
+### ore spirits
+execute as @e[type=item,nbt={Item:{tag:{origami-games:{launch:{function:"ore_spirit"}}}}}] at @s run function origami-games:launch/entity/ore_spirit/check_ore
 
 #magnetism
 tag @e[type=#origami-games:launch/item/magnetite/pull] add lch_holding_magnetite
@@ -113,4 +117,4 @@ tag @e[type=slime,tag=!lch_remove,name="entity.launch.sand_crawler",nbt=!{Size:1
 execute as @e[tag=lch_remove] run data merge entity @s {Health:0,DeathTime:19,Time:0,Duration:0,Size:0}
 
 #heads
-execute as @e[type=item,tag=!lch_head,tag=!lch_entity,nbt={Item:{id:"minecraft:player_head"}}] if data entity @s Item.tag unless data entity @s Item.tag.origami-games unless data entity @s Item.tag.SkullOwner.Name at @s run function origami-games:launch/item/player_head_placed
+execute as @e[type=item,tag=!lch_head,tag=!lch_entity,nbt={Item:{id:"minecraft:player_head"}}] if data entity @s Item.tag unless data entity @s Item.tag.origami-games unless data entity @s Item.tag.SkullOwner.Name at @s run function origami-games:launch/item/recover_player_head

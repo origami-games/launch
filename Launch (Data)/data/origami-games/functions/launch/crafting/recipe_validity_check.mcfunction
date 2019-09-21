@@ -1,6 +1,6 @@
 #checks all slots have the same count
-#@s - synthesiser not triggered with an item in
-#called by launch/block/synthesiser/checks
+#@s - [CRAFTER]
+#called by launch/block/[CRAFTER]/processes
 
 #store number of full slots
 execute store result score @s lch_slot_count run data get block ~ ~ ~ Items
@@ -36,7 +36,8 @@ execute if score @s lch_slot_count matches 9.. unless score @s lch_slot_size = f
 scoreboard players operation @s lch_slot_size = first_stack_count lch_slot_size
 
 #tell crafters with valid contents to run recipe checks
-execute if score @s lch_slot_size matches 1.. run function origami-games:launch/block/synthesiser/crafting/recipe_check
+execute if entity @s[tag=lch_synthesiser] if score @s lch_slot_size matches 1.. run function origami-games:launch/block/synthesiser/recipe_check
+execute if entity @s[tag=lch_disenchanter] if score @s lch_slot_size matches 1.. if score @s lch_slot_count matches 2 if data block ~ ~ ~ Items[].tag.Enchantments[].id run function origami-games:launch/block/disenchanter/disenchant
 
 #check if one of the recipes succeeded
 execute if score @s lch_slot_size matches 1.. if block ~ ~ ~ dropper{Items:[{tag:{lch_crafting:{}}}]} run function origami-games:launch/crafting/apply_multiplier

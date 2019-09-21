@@ -3,11 +3,16 @@
 #called by launch/player/tick
 #CREDIT: NOPEname
 
+#audiovisuals
+particle enchanted_hit ~ ~ ~ .05 .05 .05 0 1 normal @a
+
 execute store result score @s lch_tp_motion_x run data get entity @s Pos[0] 1000000
 execute store result score @s lch_tp_motion_y run data get entity @s Pos[1] 1000000
 execute store result score @s lch_tp_motion_z run data get entity @s Pos[2] 1000000
 
 tp @s ^ ^ ^0.001 facing entity @e[type=#origami-games:launch/item/magnetite/pull,tag=lch_holding_magnetite,distance=..6,sort=nearest,limit=1]
+data merge entity @s[tag=!lch_magnetite_init] {PickupDelay:0}
+tag @s add lch_magnetite_init
 
 execute store result score @s lch_tp_motion_dx run data get entity @s Pos[0] 1000000
 execute store result score @s lch_tp_motion_dy run data get entity @s Pos[1] 1000000
@@ -25,10 +30,3 @@ scoreboard players operation @s lch_tp_motion_dz -= @s lch_tp_motion_z
 execute store result entity @s Motion[0] double 0.0002 run scoreboard players get @s lch_tp_motion_dx
 execute store result entity @s Motion[1] double 0.0001 run scoreboard players get @s lch_tp_motion_dy
 execute store result entity @s Motion[2] double 0.0002 run scoreboard players get @s lch_tp_motion_dz
-
-scoreboard players reset @s lch_tp_motion_x
-scoreboard players reset @s lch_tp_motion_y
-scoreboard players reset @s lch_tp_motion_z
-scoreboard players reset @s lch_tp_motion_dx
-scoreboard players reset @s lch_tp_motion_dy
-scoreboard players reset @s lch_tp_motion_dz
