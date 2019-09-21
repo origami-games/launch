@@ -8,8 +8,8 @@ execute if entity @e[type=minecraft:armor_stand,tag=lch_ver_check,nbt={HandItems
 execute if entity @e[type=minecraft:armor_stand,tag=lch_ver_check,nbt={HandItems:[{tag:{update:14}}]}] run scoreboard players set server_version lch_general 14
 execute if entity @e[type=minecraft:armor_stand,tag=lch_ver_check,nbt={ArmorItems:[{tag:{update:15}}]}] run scoreboard players set server_version lch_general 15
 #disable pack is score is too low
-execute unless score server_version lch_general matches 15 run tellraw @a {"translate":"text.launch.server_version.too_low","color":"red"}
-execute unless score server_version lch_general matches 15 run datapack disable "file/Launch (Data)"
-execute unless score server_version lch_general matches 15 run tellraw @a {"translate":"text.launch.server_version.too_low.done","color":"green"}
+execute unless score server_version lch_general matches 14.. run tellraw @a {"translate":"text.launch.server_version.too_low","color":"red"}
+execute unless score server_version lch_general matches 14.. run datapack disable "file/Launch (Data)"
+execute unless score server_version lch_general matches 14.. run tellraw @a {"translate":"text.launch.server_version.too_low.done","color":"green"}
 #kill test entities
 kill @e[type=minecraft:armor_stand,tag=lch_ver_check]
