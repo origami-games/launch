@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.1](https://github.com/origami-games/launch/tree/v0.1.1)
+- Fixed filled Bonsai Pots spawning loot at 3x normal speed rather than 2x
+- Added a particle effect to End Crystals' projectile deflection
+- Made all projectiles be deflected by End Crystals
+- Made projectiles bounce off of End Crystals, rather than just being stopped
+
 ## [v0.1.0](https://github.com/origami-games/launch/tree/v0.1.0)
 - Performance improvements
 - Fixed a Purpur Pillar spawning at world spawn upon each dragon fight

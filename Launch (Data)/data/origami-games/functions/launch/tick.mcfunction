@@ -62,8 +62,8 @@ scoreboard players reset @e[type=!#origami-games:launch/block/gravity_pad/no_tog
 
 #custom mobs
 ## mob spawning
-tag @e[type=!#origami-games:launch/sprite,type=!player,tag=!lch_no_check,tag=!lch_entity] add lch_check_spawn
-execute as @e[type=!#origami-games:launch/sprite,type=!player,tag=lch_check_spawn] at @s run function origami-games:launch/entity/spawning/entity_check
+tag @e[type=!#origami-games:launch/entity/spawning/no_check,tag=!lch_no_check,tag=!lch_entity] add lch_check_spawn
+execute as @e[type=!#origami-games:launch/entity/spawning/no_check,tag=lch_check_spawn] at @s run function origami-games:launch/entity/spawning/entity_check
 ## sound
 execute as @e[tag=lch_sound] at @s run function origami-games:launch/entity/sound/checks
 ## sand crawler

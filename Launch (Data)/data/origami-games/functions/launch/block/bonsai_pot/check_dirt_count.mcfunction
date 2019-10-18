@@ -6,5 +6,5 @@ execute store result score @s lch_bp_count run data get block ~ ~ ~ Items[{Slot:
 
 #set CMD
 execute unless score @s lch_bp_count matches 1.. run data modify entity @s ArmorItems[3].tag.CustomModelData set value 7
-execute if score @s lch_bp_count matches 1.. run function origami-games:launch/block/bonsai_pot/dirt/part_filled
-execute if score @s lch_bp_count matches 32.. run function origami-games:launch/block/bonsai_pot/dirt/filled
+execute if score @s lch_bp_count matches 1..15 run function origami-games:launch/block/bonsai_pot/dirt/part_filled
+execute if score @s lch_bp_count matches 16.. run function origami-games:launch/block/bonsai_pot/dirt/filled
