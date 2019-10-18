@@ -4,8 +4,8 @@
 
 #summon end crystal markers
 function origami-games:launch/world/end/crystals/summon_markers
-#generate chorus trees
-function origami-games:launch/world/end/generate_chorus
+#generate shulkers
+execute as @e[type=enderman,distance=0..,limit=30] at @s align xz run function origami-games:launch/world/end/generate_shulkers
 
 #summon end gateway markers
 kill @e[type=area_effect_cloud,tag=lch_end_gateway_marker,distance=0..]

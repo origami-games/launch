@@ -1,5 +1,36 @@
-Changelog
-=========
+# Changelog
+
+## [v0.1.0](https://github.com/origami-games/launch/tree/v0.1.0)
+- Performance improvements
+- Fixed a Purpur Pillar spawning at world spawn upon each dragon fight
+- Fixed Cooked Wolf Chop translation
+- Fixed Ore Spirit spawn rates from certain ores
+- Fixed Lapis Ores spawning Gold Ore Spirits
+- Fixed loot table `origami-games:launch/world/structure/desert_tomb/barrel` throwing parameter not provided errors on load
+- Added Bonsai Pot
+    - Spawns tree-based loot into any container below the Bonsai Pot when there is a Grass Block and a Sapling above it and when it has dirt in the first slot
+    - Crafted in Synthesiser with *Bone Blocks* and a *Flower Pot*
+        - `B_B`
+        - `BFB`
+        - `_B_`
+- Industrial Grade Diamonds are now obtainable
+    - Drop a Diamond on to an anvil and push a piston head down on to it
+- Block Breakers now require Industrial Grade Diamond in their recipe instead of Diamond
+- Reduced Sand Crawlers' upwards throwing motion
+- Reduced the chance of a Spirit Orb dropping from an Ore Spirit
+- Made the Ender Dragon drop an Elytra
+- Made Ore Spirits not drop with Silk Touch
+- Made ore drops from Ore Spirits drop with a count like Fortune III
+- Made Shulkers spawn in the main End island now instead of Chorus
+- Reworked the mob spawning system to use loot table weights
+- When near caged End Crystals, survival mode users will be affected with Mining Fatigue
+- Arrows shot at End Crystals will now be deflected
+- Reduced month size to 4 in-game days
+- Removed custom block middle-clicking
+- Removed removal of `PickupDelay` from items being pulled by Magnetite
+- Temporarily disabled custom arrows - optimising
+
+---
 
 ## [v0.0.3](https://github.com/origami-games/launch/tree/v0.0.3)
 - Fixed custom ores dropping experience when silk-touched

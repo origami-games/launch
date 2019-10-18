@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/entities/function/spawning/check_biome"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{entity_spawning:1b,entity_custom:0b}}}"
+                        }
+                    ],
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

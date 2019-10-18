@@ -19,7 +19,7 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "origami-games:launch/blocks/function/ore_spirit",
+                    "name": "origami-games:launch/entities/function/ore_spirit",
                     "weight": 1,
                     "functions": [
                         {

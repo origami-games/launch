@@ -11,8 +11,6 @@ execute store result score @s lch_tp_motion_y run data get entity @s Pos[1] 1000
 execute store result score @s lch_tp_motion_z run data get entity @s Pos[2] 1000000
 
 tp @s ^ ^ ^0.001 facing entity @e[type=#origami-games:launch/item/magnetite/pull,tag=lch_holding_magnetite,distance=..6,sort=nearest,limit=1]
-data merge entity @s[tag=!lch_magnetite_init] {PickupDelay:0}
-tag @s add lch_magnetite_init
 
 execute store result score @s lch_tp_motion_dx run data get entity @s Pos[0] 1000000
 execute store result score @s lch_tp_motion_dy run data get entity @s Pos[1] 1000000

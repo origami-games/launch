@@ -24,7 +24,7 @@ scoreboard objectives add lch_tp_motion_dy dummy
 scoreboard objectives add lch_tp_motion_dz dummy
 
 scoreboard objectives add lch_time dummy
-scoreboard players set #year_length lch_time 120
+scoreboard players set #year_length lch_time 48
 scoreboard players set #month_amount lch_time 12
 scoreboard players set #season_amount lch_time 4
 
@@ -43,6 +43,8 @@ scoreboard objectives add lch_lb_statuspre dummy
 scoreboard objectives add lch_lb_ray_scss dummy
 scoreboard objectives add lch_lb_ray dummy
 scoreboard players set $limit lch_lb_ray 31
+
+scoreboard objectives add lch_bp_count dummy
 
 scoreboard objectives add lch_gp_cooldown dummy
 scoreboard players set $start lch_gp_cooldown 10

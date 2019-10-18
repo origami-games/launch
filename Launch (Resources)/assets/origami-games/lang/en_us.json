@@ -35,6 +35,7 @@
     "block.launch.gravity_pad": "Gravity Pad",
     "block.launch.block_breaker": "Block Breaker",
     "block.launch.disenchanter": "Disenchanter",
+    "block.launch.bonsai_pot": "Bonsai Pot",
 
     "item.launch.redstonic_locator": "Redstonic Locator",
     "item.launch.redstonic_locator.ore_detection.too_high": "Altitude too high!",
@@ -63,6 +64,7 @@
     "item.launch.sprite_heart.lore": "Steadily produces particles even after extraction",
     "item.launch.treemanoid_bark": "Treemanoid Bark",
     "item.launch.wolf_chop": "Wolf Chop",
+    "item.launch.cooked_wolf_chop": "Cooked Wolf Chop",
     "item.launch.wolf_fang": "Wolf Fang",
     "item.launch.wolf_pelt": "Wolf Pelt",
     "item.launch.wood_sprite_core": "Wood Sprite Core",

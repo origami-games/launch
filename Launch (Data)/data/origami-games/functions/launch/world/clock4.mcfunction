@@ -8,7 +8,7 @@ execute as @e[type=area_effect_cloud,tag=lch_chunk_generate] at @s run function 
 kill @e[type=area_effect_cloud,tag=lch_chunk,tag=!lch_chunk_generate]
 
 execute store result score $chunks_generating lch_world_gen if entity @e[type=area_effect_cloud,tag=lch_chunk]
-title @a[tag=lch_chunk_debug,nbt={Dimension:0}] actionbar [{"text":"lch_chunk "},{"score":{"objective":"lch_world_gen","name":"$chunks_generating"}}]
+title @a[tag=lch_debug] actionbar [{"text":"lch_chunk "},{"score":{"objective":"lch_world_gen","name":"$chunks_generating"}}]
 
 #reset clock
 scoreboard players reset world_4 lch_clock

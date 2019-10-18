@@ -39,6 +39,24 @@
                 "custom_model_data": 6
             },
             "model": "origami-games:launch/item/disenchanter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7
+            },
+            "model": "origami-games:launch/item/bonsai_pot"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 8
+            },
+            "model": "origami-games:launch/block/bonsai_pot_part_filled"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 9
+            },
+            "model": "origami-games:launch/block/bonsai_pot_filled"
         }
     ]
 }

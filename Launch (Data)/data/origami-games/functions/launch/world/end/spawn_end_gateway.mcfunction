@@ -7,6 +7,7 @@ particle totem_of_undying ~ ~ ~ 2 2 2 .5 400 force @a
 playsound block.end_portal.spawn block @a ~ ~ ~ 100 2 1
 playsound block.end_portal.spawn block @a ~ ~ ~ 100 1 1
 playsound block.end_portal.spawn block @a ~ ~ ~ 100 0 1
+execute at @e[type=shulker] run summon firework_rocket ~ ~ ~ {LifeTime:40}
 
 #fangs and vexes
 summon evoker_fangs ~3 ~-2.5 ~

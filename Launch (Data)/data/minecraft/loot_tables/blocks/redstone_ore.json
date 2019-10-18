@@ -24,45 +24,11 @@
                                     }
                                 }
                             ],
-                            "name": "minecraft:redstone_ore",
-                            "weight": 10
+                            "name": "minecraft:redstone_ore"
                         },
                         {
-                            "type": "minecraft:item",
-                            "functions": [
-                                {
-                                    "function": "minecraft:set_count",
-                                    "count": {
-                                        "min": 4.0,
-                                        "max": 5.0,
-                                        "type": "minecraft:uniform"
-                                    }
-                                },
-                                {
-                                    "function": "minecraft:apply_bonus",
-                                    "enchantment": "minecraft:fortune",
-                                    "formula": "minecraft:uniform_bonus_count",
-                                    "parameters": {
-                                        "bonusMultiplier": 1
-                                    }
-                                },
-                                {
-                                    "function": "minecraft:explosion_decay"
-                                }
-                            ],
-                            "name": "minecraft:redstone",
-                            "weight": 10
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "origami-games:launch/blocks/function/ore_spirit",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{spirit_type:\"redstone\"}}}"
+                            "type": "minecraft:loot_table",
+                            "name": "origami-games:launch/blocks/function/ore_spirit/redstone"
                         }
                     ]
                 }

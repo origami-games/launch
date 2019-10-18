@@ -43,19 +43,22 @@ A space-themed survival data pack for Minecraft.
     - *End Stone Fragments*
         - Drops from *End Stone*
         - No functionality (yet)
+    - *Industrial Grade Diamond*
+        - To obtain, drop a Diamond on to an anvil and push a piston head down on to it
 - **Custom Mobs**
     - *Fire Ant*
-        - Spawn near lava in the Nether
+        - Spawns in the Nether
     - *Slime Queen*
         - Spawns rarely in swamps
     - *Treemanoid*
         - Spawns rarely in snowy biomes
     - *Wolf Rider*
-        - Spawns globally at night (between `daytime` ticks `12000..23000`)
+        - Spawns globally at night
     - *Sand Crawler*
-        - Spawns in the desert at night (same rate as husks)
+        - Spawns in deserts at night
+        - Throws entities that touch it into the air
     - *Wood Sprite*
-        - Spawns in wooded areas at night (same rate as skeletons)
+        - Spawns in wooded areas
     - *Ore Spirits*
         - Spawn when breaking ore blocks
         - Attack you through blocks
@@ -65,7 +68,6 @@ A space-themed survival data pack for Minecraft.
         - Floor crafted with 1 *Redstonic Locator*, 1 *Piston*, 1 *Iron Block* and 1 *Crafting Table*
         - Essentially, Launch's custom crafter
     - *Disenchanter*
-        - Can be placed like normal blocks
         - Removes enchantments from items when the enchanted item is placed in the first slot of the *Disenchanter* and a normal book is placed in the last slot
             - Returns an *Enchanted Book*, removes the enchantment from the item and gives a bit of XP
         - Crafted in Synthesiser with *Smooth Stone*, *Obsidian*, an *Enchanting Table* and a *Book and Quill*
@@ -88,15 +90,22 @@ A space-themed survival data pack for Minecraft.
     - *Block Breaker*
         - Created by dropping a *Block Breaker* item on to a piston
         - When powered by redstone, breaks the block the face of the piston head touches
-        - Crafted in *Synthesiser* with *Diamonds* and *Sticks* like a pickaxe, *Iron Ingots* and *Pistons*
+        - Crafted in *Synthesiser* with *Industrial Grade Diamonds* and *Sticks* like a pickaxe, *Iron Ingots* and *Pistons*
             - `DDD`
             - `ISI`
             - `PSP`
+    - Bonsai Pot
+        - Spawns tree-based loot into any container below the Bonsai Pot when there is a Grass Block and a Sapling above it and when it has dirt in the first slot
+        - Crafted in Synthesiser with *Bone Blocks* and a *Flower Pot*
+            - `B_B`
+            - `BFB`
+            - `_B_`
 - **Gameplay Changes**
     - Made *Shulkers* drop 2 *Shulker Shells* always
     - Made *Silverfish* drop *Iron Nuggets*, and have a chance to drop *Iron Ingots* with *Looting*
     - Made *Stone Pickaxes* craftable with all types of stone
     - Made *Armour Stands* have arms by default
+    - Made the *Ender Dragon* drop an *Elytra*
     - Added *Log/Wood* to *Stripped Log/Wood* in the *Stonecutter*
     - Universal Dyeing
         - Dyed items can be dyed again
@@ -115,4 +124,6 @@ A space-themed survival data pack for Minecraft.
     - The End
         - The *Exit Portal* is converted to *Obsidian* and has a *Purpur Pillar* under the *Dragon Egg*
         - *End Crystal* towers have a new crowning which regenerates at each fight
-        - *Chorus Fruit* trees are randomly generated upon first generation
+        - *Shulkers* are randomly generated upon each dragon fight
+        - *Arrows* shot at *End Crystals* will be deflected
+        - When near caged *End Crystals*, survival mode users will be affected with *Mining Fatigue*
