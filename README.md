@@ -1,3 +1,5 @@
+<img src="Launch (Resources)/pack.png" align="right" width="180px"/>
+
 # Launch
 
 ## Summary
