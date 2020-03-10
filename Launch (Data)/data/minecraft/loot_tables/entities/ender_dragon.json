@@ -5,8 +5,8 @@
             "rolls": 1,
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:elytra"
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/additions/entities/ender_dragon"
                 }
             ]
         }

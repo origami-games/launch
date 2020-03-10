@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"crab_meat\"}},display:{Name:'{\"translate\":\"item.launch.crab_meat\",\"italic\":false}'},CustomModelData:7510002}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

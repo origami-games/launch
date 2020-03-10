@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"wolf_pelt\"}},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:89314,UUIDLeast:93847,Slot:\"offhand\"}],display:{Name:'{\"translate\":\"item.launch.wolf_pelt\",\"italic\":false}'},CustomModelData:10}"
+                            "tag": "{origami-games:{launch:{item:\"wolf_pelt\"}},AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUIDMost:89314,UUIDLeast:93847,Slot:\"offhand\"}],display:{Name:'{\"translate\":\"item.launch.wolf_pelt\",\"italic\":false}'},CustomModelData:7510010}"
                         }
                     ]
                 }

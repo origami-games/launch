@@ -8,6 +8,40 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
+                            "name": "origami-games:launch/entities/function/spawning/biome/cave",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "position": {
+                                            "y": {
+                                                "min": 21,
+                                                "max": 40
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:loot_table",
+                            "name": "origami-games:launch/entities/function/spawning/biome/deep_cave",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:location_check",
+                                    "predicate": {
+                                        "position": {
+                                            "y": {
+                                                "min": 0,
+                                                "max": 20
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:loot_table",
                             "name": "origami-games:launch/entities/function/spawning/biome/cold",
                             "conditions": [
                                 {
@@ -134,7 +168,7 @@
                                         {
                                             "condition": "minecraft:location_check",
                                             "predicate": {
-                                                "biome": "minecraft:nether"
+                                                "biome": "minecraft:nether_wastes"
                                             }
                                         }
                                     ]

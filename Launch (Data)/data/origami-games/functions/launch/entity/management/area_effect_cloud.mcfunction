@@ -17,4 +17,6 @@ execute if entity @s[tag=lch_meteor_fill] at @e[distance=..20,type=item,tag=!lch
 
 #custom blocks
 ## block breaker
-execute if entity @s[tag=lch_block_breaker] run function origami-games:launch/block/block_breaker/processes
+execute if entity @s[tag=lch_block_breaker] run function origami-games:launch/block/block_breaker/tick
+#verdant crystal
+execute if entity @s[tag=lch_verdant_crystal] run function origami-games:launch/block/verdant_crystal/tick

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{item:\"shell_scale\"}},display:{Name:'{\"translate\":\"item.launch.shell_scale\",\"italic\":false}',Lore:['{\"translate\":\"item.launch.shell_scale.lore\"}']},CustomModelData:7510025}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

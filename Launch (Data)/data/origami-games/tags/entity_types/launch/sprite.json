@@ -34,6 +34,8 @@
         "minecraft:shulker_bullet",
         "minecraft:small_fireball",
         "minecraft:tnt",
-        "minecraft:wither_skull"
+        "minecraft:wither_skull",
+        "minecraft:trident",
+        "minecraft:fishing_bobber"
     ]
 }

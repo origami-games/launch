@@ -14,14 +14,8 @@
                     ]
                 },
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stick",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{entity:\"none\",entity_custom:1b,entity_spawning:1b}}}"
-                        }
-                    ],
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:empty",
                     "weight": 20
                 }
             ]

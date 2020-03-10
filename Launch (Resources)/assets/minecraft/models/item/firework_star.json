@@ -7,7 +7,7 @@
     "overrides": [
         {
             "predicate": {
-                "custom_model_data": 1
+                "custom_model_data": 7510001
             },
             "model": "origami-games:launch/item/sprite_heart"
         }

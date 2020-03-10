@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EntityTag:{id:armor_stand,Tags:[\"lch_summon_magnetite_ore\"],Invisible:1,Small:1,Marker:1,Invulnerable:1,CustomName:'\"lch_summon_magnetite_ore\"'},display:{Name:'{\"translate\":\"block.launch.magnetite_ore\",\"italic\":false}'},origami-games:{launch:{item:\"magnetite_ore\"}},CustomModelData:4}"
+                            "tag": "{EntityTag:{id:armor_stand,Tags:[\"lch_summon_magnetite_ore\"],Invisible:1,Small:1,Marker:1,Invulnerable:1,CustomName:'\"lch_summon_magnetite_ore\"'},display:{Name:'{\"translate\":\"block.launch.magnetite_ore\",\"italic\":false}'},origami-games:{launch:{item:\"magnetite_ore\"}},CustomModelData:7510004}"
                         }
                     ]
                 }

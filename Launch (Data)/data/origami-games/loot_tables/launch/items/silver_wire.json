@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"silver_wire\"}},display:{Name:'{\"translate\":\"item.launch.silver_wire\",\"italic\":false}'},CustomModelData:16}"
+                            "tag": "{origami-games:{launch:{item:\"silver_wire\"}},display:{Name:'{\"translate\":\"item.launch.silver_wire\",\"italic\":false}'},CustomModelData:7510016}"
                         }
                     ]
                 }

@@ -341,7 +341,7 @@
                                         {
                                             "condition": "minecraft:location_check",
                                             "predicate": {
-                                                "biome": "minecraft:nether"
+                                                "biome": "minecraft:nether_wastes"
                                             }
                                         }
                                     ]

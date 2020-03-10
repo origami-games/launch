@@ -1,13 +1,13 @@
 {
     "pack": {
-        "pack_format": 4,
+        "pack_format": 5,
         "description": [
             {
                 "translate": "%1$s",
                 "with": [
                     {
                         "text": "Enable to play Launch",
-                        "color":"red"
+                        "color": "red"
                     },
                     {
                         "translate": "pack.launch.name",
@@ -16,7 +16,7 @@
                 ]
             },"\n",
             {
-                "text": "M1.14+",
+                "text": "M1.15+",
                 "color": "dark_gray"
             }
         ]

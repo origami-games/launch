@@ -49,6 +49,9 @@ execute if score @s lch_slot_count matches 4 if score @s lch_slot_size matches .
 #end stone from fragments
 execute if score @s lch_slot_count matches 4 if score @s lch_slot_size matches ..64 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"end_stone_fragment"}}}},{Slot:1b,tag:{origami-games:{launch:{item:"end_stone_fragment"}}}},{Slot:3b,tag:{origami-games:{launch:{item:"end_stone_fragment"}}}},{Slot:4b,tag:{origami-games:{launch:{item:"end_stone_fragment"}}}}]} run data merge block ~ ~ ~ {Items:[{Slot:8b,id:"end_stone",Count:1b,tag:{lch_crafting:{multiplier:1}}}]}
 
+#slime fertiliser
+execute if score @s lch_slot_count matches 2 if score @s lch_slot_size matches ..64 if block ~ ~ ~ dropper{Items:[{id:"minecraft:slime_ball"},{id:"minecraft:bone_meal"}]} run function origami-games:launch/item/slime_fertiliser/craft
+
 #electrified energy bars
 execute if score @s lch_slot_count matches 2 if score @s lch_slot_size matches ..64 if block ~ ~ ~ dropper{Items:[{id:"minecraft:iron_bars"},{id:"minecraft:redstone_torch"}]} run function origami-games:launch/item/electrified_energy_bars/craft
 
@@ -82,6 +85,9 @@ execute if score @s lch_slot_count matches 3 if score @s lch_slot_size matches 1
 execute if score @s lch_slot_count matches 5 if score @s lch_slot_size matches 1 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:1b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:2b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:4b,id:"minecraft:stick"},{Slot:7b,id:"minecraft:stick"}]} run function origami-games:launch/item/magnetite/pickaxe/craft
 execute if score @s lch_slot_count matches 3 if score @s lch_slot_size matches 1 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:3b,id:"minecraft:stick"},{Slot:6b,id:"minecraft:stick"}]} run function origami-games:launch/item/magnetite/shovel/craft
 execute if score @s lch_slot_count matches 5 if score @s lch_slot_size matches 1 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:1b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:3b,id:"minecraft:stick"},{Slot:4b,tag:{origami-games:{launch:{item:"magnetite_lump"}}}},{Slot:6b,id:"minecraft:stick"}]} run function origami-games:launch/item/magnetite/hammer/craft
+
+#scythe
+execute if score @s lch_slot_count matches 5 if score @s lch_slot_size matches 1 if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot"},{Slot:1b,id:"minecraft:iron_ingot"},{Slot:2b,id:"minecraft:iron_ingot"},{Slot:3b,id:"minecraft:stick"},{Slot:6b,id:"minecraft:stick"}]} run function origami-games:launch/item/scythe/craft
 
 #block breaker
 execute if score @s lch_slot_count matches 9 if score @s lch_slot_size matches ..16 if block ~ ~ ~ dropper{Items:[{Slot:0b,tag:{origami-games:{launch:{item:"industrial_grade_diamond"}}}},{Slot:1b,tag:{origami-games:{launch:{item:"industrial_grade_diamond"}}}},{Slot:2b,tag:{origami-games:{launch:{item:"industrial_grade_diamond"}}}},{Slot:3b,id:"minecraft:iron_ingot"},{Slot:4b,id:"minecraft:stick"},{Slot:5b,id:"minecraft:iron_ingot"},{Slot:6b,id:"minecraft:piston"},{Slot:7b,id:"minecraft:stick"},{Slot:8b,id:"minecraft:piston"}]} run function origami-games:launch/block/block_breaker/craft

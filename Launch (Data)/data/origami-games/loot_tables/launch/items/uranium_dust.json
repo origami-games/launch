@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"uranium_dust\"}},display:{Name:'{\"translate\":\"item.launch.uranium_dust\",\"italic\":false}'},CustomModelData:20}"
+                            "tag": "{origami-games:{launch:{item:\"uranium_dust\"}},display:{Name:'{\"translate\":\"item.launch.uranium_dust\",\"italic\":false}'},CustomModelData:7510020}"
                         }
                     ]
                 }

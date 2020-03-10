@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/slime_fertiliser"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "origami-games:launch/items/frog_leg"
+                }
+            ]
+        }
+    ]
+}

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"tungsten_artefact\"}},display:{Name:'{\"translate\":\"item.launch.tungsten_artefact\",\"italic\":false}'},CustomModelData:18}"
+                            "tag": "{origami-games:{launch:{item:\"tungsten_artefact\"}},display:{Name:'{\"translate\":\"item.launch.tungsten_artefact\",\"italic\":false}'},CustomModelData:7510018}"
                         }
                     ]
                 }

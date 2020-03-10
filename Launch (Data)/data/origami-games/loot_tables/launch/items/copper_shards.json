@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"copper_shards\"}},display:{Name:'{\"translate\":\"item.launch.copper_shards\",\"italic\":false}'},CustomModelData:12}"
+                            "tag": "{origami-games:{launch:{item:\"copper_shards\"}},display:{Name:'{\"translate\":\"item.launch.copper_shards\",\"italic\":false}'},CustomModelData:7510012}"
                         }
                     ]
                 }

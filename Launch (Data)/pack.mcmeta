@@ -1,12 +1,11 @@
 {
     "pack": {
-        "pack_format": 4,
+        "pack_format": 5,
         "description": [
             {
-                "text": "Launch",
+                "translate": "pack.launch.name",
                 "color": "aqua"
-            },
-            "\n",
+            }, "\n",
             {
                 "text": "Origami Games",
                 "color": "dark_aqua"

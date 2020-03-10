@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{EntityTag:{id:armor_stand,Tags:[\"lch_summon_synthesiser\"],Invisible:1,Silent:1,Small:1,Marker:1,Invulnerable:1,CustomName:'\"lch_summon_synthesiser\"'},display:{Name:'{\"translate\":\"block.launch.synthesiser\",\"italic\":false}'},origami-games:{launch:{item:\"synthesiser\"}},CustomModelData:1}"
+                            "tag": "{EntityTag:{id:armor_stand,Tags:[\"lch_summon_synthesiser\"],Invisible:1,Silent:1,Small:1,Marker:1,Invulnerable:1,CustomName:'\"lch_summon_synthesiser\"'},display:{Name:'{\"translate\":\"block.launch.synthesiser\",\"italic\":false}'},origami-games:{launch:{item:\"synthesiser\"}},CustomModelData:7510001}"
                         }
                     ]
                 }

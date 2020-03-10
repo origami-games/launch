@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"treemanoid_bark\"}},display:{Name:'{\"translate\":\"item.launch.treemanoid_bark\",\"italic\":false}'},CustomModelData:7}"
+                            "tag": "{origami-games:{launch:{item:\"treemanoid_bark\"}},display:{Name:'{\"translate\":\"item.launch.treemanoid_bark\",\"italic\":false}'},CustomModelData:7510007}"
                         }
                     ]
                 }

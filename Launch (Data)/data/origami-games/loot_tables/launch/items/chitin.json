@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"chitin\"}},display:{Name:'{\"translate\":\"item.launch.chitin\",\"italic\":false}',Lore:['{\"translate\":\"item.launch.chitin.lore\"}']},CustomModelData:6}"
+                            "tag": "{origami-games:{launch:{item:\"chitin\"}},display:{Name:'{\"translate\":\"item.launch.chitin\",\"italic\":false}',Lore:['{\"translate\":\"item.launch.chitin.lore\"}']},CustomModelData:7510006}"
                         }
                     ]
                 }

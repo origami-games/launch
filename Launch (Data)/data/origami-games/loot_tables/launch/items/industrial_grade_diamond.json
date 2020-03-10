@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"industrial_grade_diamond\"}},display:{Name:'{\"translate\":\"item.launch.industrial_grade_diamond\",\"italic\":false}'},CustomModelData:14}"
+                            "tag": "{origami-games:{launch:{item:\"industrial_grade_diamond\"}},display:{Name:'{\"translate\":\"item.launch.industrial_grade_diamond\",\"italic\":false}'},CustomModelData:7510014}"
                         }
                     ]
                 }

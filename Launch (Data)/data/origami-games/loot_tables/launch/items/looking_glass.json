@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"looking_glass\"}},display:{Name:'{\"translate\":\"item.launch.looking_glass\",\"italic\":false,\"color\":\"blue\"}'},origami-games:{launch:{item:\"looking_glass\"}},CustomModelData:3,AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-1.0d,Operation:0,UUIDMost:84689,UUIDLeast:19382,Slot:\"offhand\"}],HideFlags:2}"
+                            "tag": "{origami-games:{launch:{item:\"looking_glass\"}},display:{Name:'{\"translate\":\"item.launch.looking_glass\",\"italic\":false,\"color\":\"blue\"}'},origami-games:{launch:{item:\"looking_glass\"}},CustomModelData:7510003,AttributeModifiers:[{AttributeName:\"generic.movementSpeed\",Name:\"generic.movementSpeed\",Amount:-1.0d,Operation:0,UUIDMost:84689,UUIDLeast:19382,Slot:\"offhand\"}],HideFlags:2}"
                         }
                     ]
                 }

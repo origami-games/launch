@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"custom_arrow\",arrow:\"lightning\"}},display:{Name:'{\"translate\":\"item.launch.lightning_arrow\",\"italic\":false}'},CustomModelData:2}"
+                            "tag": "{origami-games:{launch:{item:\"custom_arrow\",arrow:\"lightning\"}},display:{Name:'{\"translate\":\"item.launch.lightning_arrow\",\"italic\":false}'},CustomModelData:7510002}"
                         }
                     ]
                 }

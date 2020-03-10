@@ -6,25 +6,25 @@
     "overrides": [
         {
             "predicate": {
-                "custom_model_data": 1
+                "custom_model_data": 7510001
             },
             "model": "origami-games:launch/item/explosive_arrow"
         },
         {
             "predicate": {
-                "custom_model_data": 2
+                "custom_model_data": 7510002
             },
             "model": "origami-games:launch/item/lightning_arrow"
         },
         {
             "predicate": {
-                "custom_model_data": 3
+                "custom_model_data": 7510003
             },
             "model": "origami-games:launch/item/ender_arrow"
         },
         {
             "predicate": {
-                "custom_model_data": 4
+                "custom_model_data": 7510004
             },
             "model": "origami-games:launch/item/torch_arrow"
         }

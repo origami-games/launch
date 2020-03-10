@@ -1,5 +1,5 @@
 #@s - light bridge unless block ~ ~ ~ dropper{CustomName:'{"translate":"block.launch.light_bridge"}'}
-#called by launch/block/light_bridge/processes
+#called by launch/block/light_bridge/tick
 
 #reimburse items
 execute align xyz if entity @e[type=item,dx=0,dy=0,dz=0,nbt={Item:{id:"minecraft:dropper",tag:{display:{Name:'{"translate":"block.launch.light_bridge"}'}}}}] run loot spawn ~ ~ ~ loot origami-games:launch/blocks/light_bridge

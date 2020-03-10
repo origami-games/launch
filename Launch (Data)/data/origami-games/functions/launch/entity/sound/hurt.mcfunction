@@ -3,3 +3,4 @@
 #called by launch/entity/sound/checks
 
 execute if entity @s[tag=lch_sand_crawler] run playsound entity.wolf.ambient hostile @a[distance=..20] ~ ~ ~ 1 0 1
+execute if entity @s[tag=lch_sea_urchin] run playsound entity.squid.hurt hostile @a[distance=..20] ~ ~ ~ 1 1.5 1

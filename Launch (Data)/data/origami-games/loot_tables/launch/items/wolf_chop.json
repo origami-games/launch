@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"wolf_chop\"}},display:{Name:'{\"translate\":\"item.launch.wolf_chop\",\"italic\":false}'},CustomModelData:1}"
+                            "tag": "{origami-games:{launch:{item:\"wolf_chop\"}},display:{Name:'{\"translate\":\"item.launch.wolf_chop\",\"italic\":false}'},CustomModelData:7510001}"
                         }
                     ]
                 }

@@ -9,9 +9,36 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{entity:\"none\",entity_custom:1b,entity_spawning:1b}}}"
+                            "tag": "{origami-games:{launch:{entity:\"ender_sprite\",entity_custom:1b,entity_spawning:1b}}}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{entity:\"flinty_biter\",entity_custom:1b,entity_spawning:1b}}}"
                         }
                     ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{origami-games:{launch:{entity:\"shulker\",entity_custom:1b,entity_spawning:1b}}}"
+                        }
+                    ],
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:empty",
+                    "weight": 5
                 }
             ]
         }

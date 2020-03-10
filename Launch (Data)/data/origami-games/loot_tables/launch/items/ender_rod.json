@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"translate\":\"item.launch.ender_rod\",\"italic\":false,\"color\":\"aqua\"}',Lore:['{\"translate\":\"item.launch.ender_rod.lore\"}']},origami-games:{launch:{item:\"ender_rod\"}},CustomModelData:2}"
+                            "tag": "{display:{Name:'{\"translate\":\"item.launch.ender_rod\",\"italic\":false,\"color\":\"aqua\"}',Lore:['{\"translate\":\"item.launch.ender_rod.lore\"}']},origami-games:{launch:{item:\"ender_rod\"}},CustomModelData:7510002}"
                         }
                     ]
                 }

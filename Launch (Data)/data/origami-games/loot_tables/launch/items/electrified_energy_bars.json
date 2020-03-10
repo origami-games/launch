@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{}],HideFlags:1b,display:{Name:'{\"translate\":\"item.launch.electrified_energy_bars\",\"italic\":false}',Lore:['{\"translate\":\"item.launch.electrified_energy_bars.lore\"}']},origami-games:{launch:{item:\"electrified_energy_bars\"}},CustomModelData:4}"
+                            "tag": "{Enchantments:[{}],HideFlags:1b,display:{Name:'{\"translate\":\"item.launch.electrified_energy_bars\",\"italic\":false}',Lore:['{\"translate\":\"item.launch.electrified_energy_bars.lore\"}']},origami-games:{launch:{item:\"electrified_energy_bars\"}},CustomModelData:7510004}"
                         }
                     ]
                 }

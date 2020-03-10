@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{origami-games:{launch:{item:\"silver_shards\"}},display:{Name:'{\"translate\":\"item.launch.silver_shards\",\"italic\":false}'},CustomModelData:15}"
+                            "tag": "{origami-games:{launch:{item:\"silver_shards\"}},display:{Name:'{\"translate\":\"item.launch.silver_shards\",\"italic\":false}'},CustomModelData:7510015}"
                         }
                     ]
                 }

@@ -3,13 +3,13 @@
     "overrides": [
         {
             "predicate": {
-                "custom_model_data": 3
+                "custom_model_data": 7510003
             },
             "model": "origami-games:launch/block/titanium_plating"
         },
         {
             "predicate": {
-                "custom_model_data": 4
+                "custom_model_data": 7510004
             },
             "model": "origami-games:launch/block/magnetite_ore"
         }
