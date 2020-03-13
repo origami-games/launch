@@ -1,5 +1,5 @@
-#armour stand management
-#@s - armour stand
+#armor stand management
+#@s - armor stand
 #called by launch/clock16
 
 #arms

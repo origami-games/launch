@@ -1,5 +1,5 @@
 #@s - bonsai pot
-#called by launch/entity/management/armour_stand16
+#called by launch/entity/management/armor_stand16
 
 #check item
 execute if block ~ ~ ~ hopper{Items:[{}]} run function origami-games:launch/block/bonsai_pot/check_dirt_count

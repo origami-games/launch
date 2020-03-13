@@ -2,7 +2,7 @@
     "parent": "origami-games:launch/progress/redstonic_locator",
     "display": {
         "icon": {
-            "item": "minecraft:armor_stand",
+            "item": "minecraft:item_frame",
             "nbt": "{CustomModelData:7510001}"
         },
         "title": [

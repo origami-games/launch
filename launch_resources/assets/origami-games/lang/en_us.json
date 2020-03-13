@@ -5,6 +5,8 @@
     "pack.launch.load": "Loaded",
 
     "text.launch.update": "Successfully updated",
+    "text.launch.install": "Successfully installed",
+    "text.launch.update.post_1.16": "You have updated Launch from a pre-1.16 version - bugs will occur!",
     "text.launch.update.hover_text": "Click here to view the latest features",
     "text.launch.downdate": "You are downdating! Disabling pack...",
     "text.launch.downdate.done": "Pack disabled",

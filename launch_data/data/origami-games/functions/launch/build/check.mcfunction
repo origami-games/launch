@@ -4,9 +4,12 @@
 #store build number
 scoreboard players operation build_number_prev lch_data = build_number lch_data
 #update current build number ***MODIFY BUILD COUNT HERE***
-scoreboard players set build_number lch_data 8
+scoreboard players set build_number lch_data 1160000001
 #if updating, send update message
-execute if score build_number_prev lch_data < build_number lch_data run tellraw @a {"translate":"text.launch.update","hoverEvent":{"action":"show_text","value":{"translate":"text.launch.update.hover_text"}},"clickEvent":{"action":"open_url","value":"https://origami-games.github.io/launch#features"},"color":"aqua"}
+execute if score build_number_prev lch_data matches 1..1160000000 run tellraw @a {"translate":"text.launch.update.post_1.16","color":"red"}
+
+execute if score build_number_prev lch_data matches 0 run tellraw @a {"translate":"text.launch.install","color":"aqua"}
+execute unless score build_number_prev lch_data matches 0 if score build_number_prev lch_data < build_number lch_data run tellraw @a {"translate":"text.launch.update","hoverEvent":{"action":"show_text","value":{"translate":"text.launch.update.hover_text"}},"clickEvent":{"action":"open_url","value":"https://origami-games.github.io/launch#features"},"color":"aqua"}
 #if downdating, send warning message
 execute if score build_number_prev lch_data > build_number lch_data run function origami-games:launch/build/downdating
 #remove fake players

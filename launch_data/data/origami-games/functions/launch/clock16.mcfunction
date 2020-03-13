@@ -13,7 +13,7 @@ scoreboard players add @e[tag=lch_sound] lch_snd_ambient 1
 execute as @e[tag=lch_sound,scores={lch_snd_ambient=3..}] at @s run function origami-games:launch/entity/sound/ambient
 
 #general entity management
-execute as @e[type=armor_stand] at @s run function origami-games:launch/entity/management/armour_stand16
+execute as @e[type=armor_stand] at @s run function origami-games:launch/entity/management/armor_stand16
 execute as @e[type=falling_block,tag=lch_falling_block_no_despawn] run data modify entity @s Time set value -32767
 execute as @e[type=zombie,tag=lch_zombie_no_drowned] run data modify entity @s DrownedConversionTime set value 32767
 

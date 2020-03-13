@@ -8,4 +8,4 @@ fill ~ ~ ~ ~ ~ ~ air replace command_block
 
 #create verdant crystal
 setblock ~ ~ ~ light_blue_stained_glass keep
-summon area_effect_cloud ~ ~ ~ {Tags:["lch_entity","lch_verdant_crystal"],Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"translate":"block.launch.verdant_crystal"}'}
+execute align xyz run summon area_effect_cloud ~.5 ~ ~.5 {Tags:["lch_entity","lch_verdant_crystal"],Age:-2147483648,Duration:-1,WaitTime:-2147483648,CustomName:'{"translate":"block.launch.verdant_crystal"}'}

@@ -14,4 +14,4 @@ kill @e[type=item,distance=...5,nbt={Item:{id:"minecraft:piston",Count:1b}}]
 
 #summon item
 loot spawn ~ ~ ~ loot origami-games:launch/items/synthesiser
-data merge entity @e[type=item,distance=0,limit=1] {Motion:[0.0d,0.2d,0.0d],PickupDelay:11s,CustomNameVisible:1,CustomName:'{"translate":"block.launch.synthesiser"}'}
+data merge entity @e[type=item,distance=0,limit=1] {Motion:[0.0d,0.2d,0.0d],PickupDelay:11s,CustomNameVisible:1b,CustomName:'{"translate":"block.launch.synthesiser"}'}

@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Item:{tag:{origami-games:{launch:{spawner:{block:\"magnetite_ore\"}}}}}}"
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:reference",
+                    "name": "origami-games:launch/block/spawner/tool/diamond_pickaxe"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Item:{tag:{origami-games:{launch:{spawner:{block:\"titanium_plating\"}}}}}}"
+    }
+}

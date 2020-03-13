@@ -57,8 +57,8 @@ scoreboard players operation $ender_dragon_count_prev lch_world_gen = $ender_dra
 
 #general entity management
 execute as @e[type=area_effect_cloud] at @s run function origami-games:launch/entity/management/area_effect_cloud
-execute as @e[type=armor_stand] at @s run function origami-games:launch/entity/management/armour_stand
-# execute as @e[type=arrow] at @s run function origami-games:launch/entity/management/arrow
+execute as @e[type=item_frame] at @s run function origami-games:launch/entity/management/item_frame
+execute as @e[type=armor_stand] at @s run function origami-games:launch/entity/management/armor_stand
 execute as @e[type=item] at @s run function origami-games:launch/entity/management/item
 
 #custom blocks
@@ -75,9 +75,9 @@ execute as @e[tag=lch_sound] at @s run function origami-games:launch/entity/soun
 ## sand crawler
 effect clear @e[type=husk,tag=lch_sand_crawler] levitation
 
-#magnetism
-tag @e[type=#origami-games:launch/item/magnetite/pull] add lch_holding_magnetite
-tag @e[type=#origami-games:launch/item/magnetite/pull,nbt=!{HandItems:[{tag:{origami-games:{launch:{magnetite:1b}}}}]},nbt=!{SelectedItem:{tag:{origami-games:{launch:{magnetite:1b}}}}},nbt=!{Inventory:[{Slot:-106b,tag:{origami-games:{launch:{magnetite:1b}}}}]}] remove lch_holding_magnetite
+#magnetite
+tag @e[type=#origami-games:launch/item/magnetite/pull,tag=lch_holding_magnetite,predicate=!origami-games:launch/item/magnetite/holding] remove lch_holding_magnetite
+tag @e[type=#origami-games:launch/item/magnetite/pull,predicate=origami-games:launch/item/magnetite/holding] add lch_holding_magnetite
 
 #removal
 execute as @e[tag=lch_passenger] at @s unless entity @e[tag=lch_vehicle,distance=..1] run tag @s add lch_remove
