@@ -1,7 +1,0 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "nbt": "{Item:{tag:{origami-games:{launch:{spawner:{tool:{id:\"minecraft:golden_pickaxe\"}}}}}}}"
-    }
-}

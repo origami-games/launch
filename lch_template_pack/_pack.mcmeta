@@ -1,0 +1,20 @@
+{
+    "pack": {
+        "pack_format": 5,
+        "description": [
+            {
+                "translate": "%1$s%5457876$s",
+                "with": [
+                    "Enable the resource pack to play Launch!",
+                    { "translate": "pack.launch.description", "color": "aqua" }
+                ],
+                "color": "red"
+            },
+            "\n",
+            {
+                "text": "M1.16+",
+                "color": "dark_gray"
+            }
+        ]
+    }
+}

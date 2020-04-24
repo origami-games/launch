@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        "launch:MODULE_ID/verify_dependencies"
+    ]
+}

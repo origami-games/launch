@@ -219,6 +219,18 @@
                 "custom_model_data": 7510025
             },
             "model": "origami-games:launch/item/shell_scale"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510026
+            },
+            "model": "origami-games:launch/item/lightning_rod"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510027
+            },
+            "model": "origami-games:launch/item/ender_rod"
         }
     ]
 }
