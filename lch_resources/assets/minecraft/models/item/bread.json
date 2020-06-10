@@ -1,0 +1,20 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/bread"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7510001
+            },
+            "model": "launch:item/urchin_meat"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510002
+            },
+            "model": "launch:item/crab_meat"
+        }
+    ]
+}

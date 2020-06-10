@@ -1,0 +1,14 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cooked_mutton"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7510001
+            },
+            "model": "launch:item/wolf_chop"
+        }
+    ]
+}

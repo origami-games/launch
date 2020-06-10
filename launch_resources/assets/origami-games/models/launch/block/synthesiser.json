@@ -1,9 +1,0 @@
-{
-    "parent": "origami-games:launch/block/cube",
-    "textures": {
-        "side": "origami-games:launch/block/synthesiser_side",
-        "top": "origami-games:launch/block/synthesiser_top",
-        "front": "origami-games:launch/block/synthesiser_side",
-        "bottom": "origami-games:launch/block/synthesiser_bottom"
-    }
-}

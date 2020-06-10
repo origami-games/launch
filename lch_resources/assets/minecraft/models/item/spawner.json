@@ -1,0 +1,17 @@
+{
+    "parent": "block/spawner",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7510003
+            },
+            "model": "launch:block/titanium_plating"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510004
+            },
+            "model": "launch:block/magnetite_ore"
+        }
+    ]
+}

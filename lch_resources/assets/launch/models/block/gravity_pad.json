@@ -1,0 +1,9 @@
+{
+    "parent": "launch:block/cube",
+    "textures": {
+        "side": "launch:block/gravity_pad_side",
+        "top": "launch:block/gravity_pad_top",
+        "front": "launch:block/gravity_pad_side",
+        "bottom": "launch:block/gravity_pad_bottom"
+    }
+}

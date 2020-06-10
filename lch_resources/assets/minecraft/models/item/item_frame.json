@@ -1,0 +1,62 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/item_frame"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7510001
+            },
+            "model": "launch:item/synthesiser"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510002
+            },
+            "model": "launch:item/light_bridge"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510003
+            },
+            "model": "launch:item/titanium_plating"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510004
+            },
+            "model": "launch:item/magnetite_ore"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510005
+            },
+            "model": "launch:item/gravity_pad"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510006
+            },
+            "model": "launch:item/disenchanter"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510007
+            },
+            "model": "launch:item/bonsai_pot"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510008
+            },
+            "model": "launch:block/bonsai_pot_dirt"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510009
+            },
+            "model": "launch:block/bonsai_pot_dirt_fertilised"
+        }
+    ]
+}

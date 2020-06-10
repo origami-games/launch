@@ -1,0 +1,26 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cooked_porkchop"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 7510001
+            },
+            "model": "launch:item/cooked_wolf_chop"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510002
+            },
+            "model": "launch:item/chicken_toastie"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 7510003
+            },
+            "model": "launch:item/meat_fish_kebab"
+        }
+    ]
+}

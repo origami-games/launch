@@ -1,0 +1,9 @@
+{
+    "parent": "launch:block/cube",
+    "textures": {
+        "side": "launch:block/synthesiser_side",
+        "top": "launch:block/synthesiser_top",
+        "front": "launch:block/synthesiser_side",
+        "bottom": "launch:block/synthesiser_bottom"
+    }
+}

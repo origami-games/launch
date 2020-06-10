@@ -1,0 +1,9 @@
+{
+    "parent": "launch:block/cube",
+    "textures": {
+        "side": "launch:block/disenchanter_side",
+        "top": "launch:block/disenchanter_top",
+        "front": "launch:block/disenchanter_side",
+        "bottom": "block/obsidian"
+    }
+}

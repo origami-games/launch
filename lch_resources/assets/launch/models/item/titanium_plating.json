@@ -1,0 +1,6 @@
+{
+    "parent": "launch:block/cube_all",
+    "textures": {
+        "all": "launch:block/titanium_plating"
+    }
+}

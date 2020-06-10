@@ -1,6 +1,0 @@
-{
-    "parent": "origami-games:launch/block/cube_all_spawner",
-    "textures": {
-        "all": "origami-games:launch/block/magnetite_ore"
-    }
-}

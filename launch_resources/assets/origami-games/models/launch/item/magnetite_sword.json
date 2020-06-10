@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "origami-games:launch/item/magnetite_sword"
-    }
-}
